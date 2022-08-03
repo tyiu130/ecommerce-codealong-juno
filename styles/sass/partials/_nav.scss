@@ -1,0 +1,40 @@
+.navBar {
+    position: sticky;
+    top: 0;
+    background-color: $solidWhite;
+    border-bottom: 2px solid rgba($color: $primary, $alpha: 0.1);
+    z-index: 10;
+
+    .wrapper {
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .searchCart {
+        display: flex;
+        align-items: center;
+    }
+
+    .bag,
+    .menuIcon {
+        padding: 10px 5px;
+    }
+
+    .counter {
+        background-color: $primary;
+        color: $solidWhite;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+}
