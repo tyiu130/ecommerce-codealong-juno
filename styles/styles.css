@@ -358,3 +358,11 @@ a.button:hover, a.button:focus {
   background-color: #084b6d;
   color: #fff;
 }
+a.button.secondaryButton {
+  background-color: #084b6d;
+  color: #fff;
+}
+a.button.secondaryButton:hover, a.button.secondaryButton:focus {
+  background-color: #fff;
+  color: #084b6d;
+}
