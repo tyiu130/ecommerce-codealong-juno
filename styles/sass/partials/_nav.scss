@@ -4,9 +4,9 @@
     background-color: $solidWhite;
     border-bottom: 2px solid rgba($color: $primary, $alpha: 0.1);
     z-index: 10;
+    padding: 15px 0;
 
     .wrapper {
-        border: 1px solid red;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -36,5 +36,35 @@
 
     .logo {
         margin-left: 50px;
+    }
+}
+
+// TODO: Implrement slide out functionality in JS
+.slideOutNav {
+    background-color: $primary;
+    color: $solidWhite;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    padding: 30px 50px;
+    width: 100%;
+    max-width: 450px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    left: -450px;
+
+    button {
+        align-self: flex-end;
+    }
+
+    a {
+        line-height: 2.2rem;
+
+        &:hover,
+        &:focus {
+            color: rgba($color: $solidWhite, $alpha: 0.6);
+        }
     }
 }
