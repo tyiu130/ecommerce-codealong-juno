@@ -54,6 +54,11 @@
     flex-direction: column;
     z-index: 20;
     left: -450px;
+    transform: 0.3s;
+
+    &.open {
+        left: 0;
+    }
 
     button {
         align-self: flex-end;

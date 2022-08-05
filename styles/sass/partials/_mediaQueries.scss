@@ -43,6 +43,11 @@ footer {
         }
     }
 
+    .slideOutNav {
+        font-family: $primaryFont;
+        @include fontSize(30);
+    }
+
     .categoryGallery {
         flex-wrap: nowrap;
         flex-direction: column;
